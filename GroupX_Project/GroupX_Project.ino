@@ -1,26 +1,18 @@
 /*
-This arduino code is for a project tha won an intel Buildathon 
-challenge held in Mombasa city on 5-6/11/2015.
-
 Its a simple ardduino project that counts the number of sears 
 occupied out of a total number and light an LED when the seats 
-are full.
-It also outputs the count as number of occupied / total number
+are full. Outputs this count as number of occupied / total number
 on the serial monitor
 
-because of availability of parts and the short time provided 
-by the judges we used:
---2 pushbutton in place of pressure sensors
+--2 pushbutton on pin 2 & 4 in place of pressure sensors
 --Serial monitor instead of LCD display
-That simple...we pitched the business concept and WON. Small,
-but we are proud!
 
  created 6 nov 2015 
  by Fatah and groupX team members
  modified 17 Nov 2015
  by Fatah Nur
 
- This example code is in the public domain.
+ This code is public.
  */
 
 // set pin numbers:
