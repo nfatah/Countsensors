@@ -1,14 +1,9 @@
 /*
-Its a simple ardduino project that counts the number of sears 
-occupied out of a total number and light an LED when the seats 
-are full. Outputs this count as number of occupied / total number
-on the serial monitor
-
---2 pushbutton on pin 2 & 4 in place of pressure sensors
---Serial monitor instead of LCD display
+Its a simple ardduino project that counts the number of
+push buttons pressed out of a total of 2
 
  created 6 nov 2015 
- by Fatah and groupX team members
+ by Fatah and groupX team members 
  modified 17 Nov 2015
  by Fatah Nur
 
@@ -57,6 +52,7 @@ void loop() {
    //Light the LED
    digitalWrite(ledPin, HIGH); 
   }
+  //if some are pressed
   if(x == 1 && y == 0 || x == 0 && y == 1)
   {
    //Display number of pins pressed out of total
